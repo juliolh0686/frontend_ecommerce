@@ -5,6 +5,7 @@ import Nosotros from '@/views/web/Nosotros.vue'
 import Servicios from '@/views/web/Servicios.vue'
 import Login from '@/views/auth/Login.vue'
 import Blog from '@/views/web/blog.vue'
+import Perfil from '@/views/admin/perfil/Perfil.vue'
 
 const routes = [
   {
@@ -26,6 +27,11 @@ const routes = [
   {
     path: '/auth/login',
     component: Login
+  },
+  {
+    path: '/admin/perfil',
+    component: Perfil,
+    name: 'perfil'
   }
 ]
 
